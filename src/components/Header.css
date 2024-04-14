@@ -1,7 +1,4 @@
-nav {
-    background-color: rgb(0, 0, 0);
-    
-}
+
 
 li, a {
     font-family: "Anton", sans-serif;
@@ -12,14 +9,15 @@ li, a {
    
   }
 
-  header, ul {
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-
-
-
-
   .custom-bg {
     background-color: rgba(0, 0, 0, 0.911); /* Replace 'yourColor' with your desired background color */
   }
+/* Optional: Adjust other properties like font size and font family */
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(211, 198, 23);
+}
+

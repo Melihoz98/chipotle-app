@@ -1,18 +1,14 @@
 import React from 'react';
-
-import './Footer.css';
-
+import './Footer.css'; // Importer CSS-filen til styling
 
 const Footer = () => {
- 
-
   return (
-    <div className="footer">
-       
-    
-
+    <footer className="footer">
+      <div className="footer-content">
+        <p>&copy; 2024 Sort Guld Steakhouse</p>
+        <p>Kontakt os: info@sortguld.dk</p>
       </div>
-   
+    </footer>
   );
 };
 
