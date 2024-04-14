@@ -1,10 +1,19 @@
-button {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .button-container {
-    text-align: center;
+/* BookButtons.css */
 
-  }
+.custom-btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.custom-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
+}
